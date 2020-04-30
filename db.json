@@ -144,11 +144,11 @@
 	},
 	"price": {
 		"type": "2",
-		"name":"DIASDASMAES",
 		"price": null,
 		"coupons": {
 			"8": {
 				"type": 2,
+				"name":"DIASDASMAES",
 				"amount": 100,
 				"used": 0,
 				"discount": 5
