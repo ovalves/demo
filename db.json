@@ -54,12 +54,110 @@
         }
     }
   },
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 },
-    { "id": 3, "body": "some comment 3", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "image": {
+    "id_image": 23,
+    "src": "\/path\/to\/image\/image.jpg",
+    "alt": "alt image"
+  },
+  "detail": {
+    "resume": "
+
+Resumo das Informações<\/p>",
+    "objective": "
+
+Objetivo<\/p>",
+    "target": "
+
+Público-alvo<\/p>"
   }
+  "lectures": {
+    "status": true,
+    "id": 22,
+    "id_next_module": 2,
+    "id_next_course": 3,
+    "data": {
+        "modules": {
+            "44": {
+                "title": "T\u00edtulo do seu primeiro m\u00f3dulo",
+                "order": 1,
+                "courses": {
+                    "103": {
+                        "title": "T\u00edtulo do seu primeiro curso",
+                        "type": 4,
+                        "situation": 1,
+                        "description": "lecture description",
+                        "order": 1,
+                        "content": {
+                            "title": "YouTube - 9SSoLOSdLEM",
+                            "video_id": "9SSoLOSdLEM",
+                            "thumbnail": null,
+                            "description": null
+                        }
+                    },
+                    "104": {
+                        "title": "quiz",
+                        "type": 3,
+                        "situation": 1,
+                        "description": "lecture description",
+                        "order": 2,
+                        "content": []
+                    }
+                }
+            }
+        },
+        "states": {
+            "quizLayer": {
+                "5": {
+                    "id_class": "104",
+                    "title": "\\u003Cp\\u003E1+1\\u003C\\\/p\\u003E",
+                    "type": 1,
+                    "weight": 1,
+                    "choices": {
+                        "10": {
+                            "text": "1",
+                            "correct": true
+                        },
+                        "11": {
+                            "text": "2",
+                            "correct": false
+                        },
+                        "12": {
+                            "text": "3",
+                            "correct": false
+                        }
+                    }
+                }
+            },
+            "moduleLayer": {
+                "44": {
+                    "id_clas_classified_section": "44"
+                }
+            },
+            "courseLayer": {
+                "103": {
+                    "id_clas_rel_upload_course_layer": "411",
+                    "layer_state": "6",
+                    "layer_action": "cancelButtonAltCourse"
+                },
+                "104": {
+                    "id_clas_rel_upload_course_layer": "415",
+                    "layer_state": "6",
+                    "layer_action": "cancelButtonAltCourse"
+                }
+            }
+        }
+    }
+  },
+  "price" : {
+      "type": "2",
+      "price": null,
+      "coupons": {
+          "8": {
+              "type": 2,
+              "amount": 100,
+              "used": 0,
+              "discount": 5
+          }
+      }
+   }
 }
