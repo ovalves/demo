@@ -144,6 +144,7 @@
 	},
 	"price": {
 		"type": "2",
+		"name":"DIASDASMAES"
 		"price": null,
 		"coupons": {
 			"8": {
