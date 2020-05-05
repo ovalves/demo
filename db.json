@@ -145,6 +145,7 @@
 	"price": {
     "type": "4",
     "price": 56,
+    "recurring_plans_is_enabled" : true,
     "recurring_plans": {
         "1": {
             "is_checked": true,
