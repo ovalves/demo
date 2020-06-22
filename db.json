@@ -1,178 +1,187 @@
 {
-	"geral": {
-		"id": 22,
-		"title": "livechat",
-		"is_published": false,
-		"slug": "livechatslug",
-		"date_time_group": 1,
-		"type": {
-			"selected": 1,
-			"fields": {
-				"Curso online": 1,
-				"Curso presencial": 2,
-				"Workshop": 3,
-				"Evento": 4,
-				"Material": 5,
-				"Prova": 6,
-				"Produto f\u00edsico": 7,
-				"Webinar": 8
-			},
-			"constraints": [
-				"disabled"
-			]
-		},
-		"skill_level": {
-			"selected": 1,
-			"fields": {
-				"B\u00e1sico": 1,
-				"Intermedi\u00e1rio": 2,
-				"Avan\u00e7ado": 3,
-				"N\u00e3o exibir": 4
-			},
-			"constraints": []
-		},
-		"category": {
-			"selected": 1,
-			"fields": {
-				"Geral": 1,
-				"Produtos": 2
-			},
-			"constraints": []
-		},
-		"permission": 1,
-		"emit_certificate": true,
-		"enable_forum": true,
-		"seo_description": "subtitulo",
-		"seo_keywords": "palavras chaves",
-		"expiration": 12,
-		"workload": "15:54",
-		"custom_fields": {
-			"label": "Campos do perfil obrigat\u00f3rios",
-			"required": false,
-			"fields": {
-				"CRP": 1
-			}
-		}
-	},
-	"image": {
-		"id_image": 23,
-		"src": "https:\/\/i.ibb.co\/8bK61mK\/2c20200422180244d96d31e1450eaf1272463f7a256ec648e80e0cc0-large.png",
-		"alt": "alt image"
-	},
-	"detail": {
-		"resume": "<p>Resumo das Informações < \/p>",
-		"objective": "<p>Objetivo < \/p>",
-		"target": "<p>Público - alvo < \/p>"
-	},
-	"lectures": {
-		"status": true,
-		"id": 22,
-		"id_next_module": 2,
-		"id_next_course": 3,
-		"data": {
-			"modules": {
-				"44": {
-					"title": "T\u00edtulo do seu primeiro m\u00f3dulo",
-					"order": 1,
-					"courses": {
-						"103": {
-							"title": "T\u00edtulo do seu primeiro curso",
-							"type": 4,
-							"situation": 1,
-							"description": "lecture description",
-							"order": 1,
-							"content": {
-								"title": "YouTube - 9SSoLOSdLEM",
-								"video_id": "9SSoLOSdLEM",
-								"thumbnail": null,
-								"description": null
-							}
-						},
-						"104": {
-							"title": "quiz",
-							"type": 3,
-							"situation": 1,
-							"description": "lecture description",
-							"order": 2,
-							"content": []
-						}
-					}
-				}
-			},
-			"states": {
-				"quizLayer": {
-					"5": {
-						"id_class": "104",
-						"title": "\\u003Cp\\u003E1+1\\u003C\\\/p\\u003E",
-						"type": 1,
-						"weight": 1,
-						"choices": {
-							"10": {
-								"text": "1",
-								"correct": true
-							},
-							"11": {
-								"text": "2",
-								"correct": false
-							},
-							"12": {
-								"text": "3",
-								"correct": false
-							}
-						}
-					}
-				},
-				"moduleLayer": {
-					"44": {
-						"id_clas_classified_section": "44"
-					}
-				},
-				"courseLayer": {
-					"103": {
-						"id_clas_rel_upload_course_layer": "411",
-						"layer_state": "6",
-						"layer_action": "cancelButtonAltCourse"
-					},
-					"104": {
-						"id_clas_rel_upload_course_layer": "415",
-						"layer_state": "6",
-						"layer_action": "cancelButtonAltCourse"
-					}
-				}
-			}
-		}
-	},
-	"price": {
-    "type": "4",
-    "price": 56,
-    "recurring_plans_is_enabled" : true,
-    "recurring_plans": {
-        "1": {
-            "is_checked": true,
-            "price": 50,
-            "link": "\/recurring\/plan\/admin\/123",
-            "name": "Plano prata"
+    "geral": {
+        "id": 22,
+        "title": "livechat",
+        "is_published": false,
+        "slug": "livechatslug",
+        "date_time_group": 1,
+        "type": {
+            "selected": 1,
+            "fields": {
+                "Curso online": 1,
+                "Curso presencial": 2,
+                "Workshop": 3,
+                "Evento": 4,
+                "Material": 5,
+                "Prova": 6,
+                "Produto f\u00edsico": 7,
+                "Webinar": 8
+            },
+            "constraints": [
+                "disabled"
+            ]
         },
-        "3": {
-            "is_checked": false,
-            "price": 75,
-            "link": "\/recurring\/plan\/admin\/456",
-            "name": "Plano Gold"
+        "skill_level": {
+            "selected": 1,
+            "fields": {
+                "B\u00e1sico": 1,
+                "Intermedi\u00e1rio": 2,
+                "Avan\u00e7ado": 3,
+                "N\u00e3o exibir": 4
+            },
+            "constraints": []
+        },
+        "category": {
+            "selected": 1,
+            "fields": {
+                "Geral": 1,
+                "Produtos": 2
+            },
+            "constraints": []
+        },
+        "permission": 1,
+        "emit_certificate": true,
+        "enable_forum": true,
+        "seo_description": "subtitulo",
+        "seo_keywords": "palavras chaves",
+        "expiration": 12,
+        "workload": "15:54",
+        "custom_fields": {
+            "label": "Campos do perfil obrigat\u00f3rios",
+            "required": false,
+            "fields": {
+                "CRP": 1
+            }
         }
     },
-    "coupons": {
-        "8": {
-            "type": 2,
-            "name": "DIASDASMAES",
-            "amount": 100,
-            "discount": 5
+    "image": {
+        "id_image": 23,
+        "src": "https:\/\/i.ibb.co\/8bK61mK\/2c20200422180244d96d31e1450eaf1272463f7a256ec648e80e0cc0-large.png",
+        "alt": "alt image"
+    },
+    "detail": {
+        "resume": {
+            "label": "Resumo das Informações",
+            "data": "<p>Lorem ipsum dolor sit amet.< \/p>"
         },
-        "12": {
-            "type": 2,
-            "name": "DIADAMULHER",
-            "amount": 50,
-            "discount": 15
+        "objective": {
+            "label": "Objetivo",
+            "data": "<p>Lorem ipsum dolor sit amet.< \/p>"
+        },
+        "target": {
+            "label": "Público-alvo",
+            "data": "<p>Lorem ipsum dolor sit amet.< \/p>"
+        }
+    },
+    "lectures": {
+        "status": true,
+        "id": 22,
+        "id_next_module": 2,
+        "id_next_course": 3,
+        "data": {
+            "modules": {
+                "44": {
+                    "title": "T\u00edtulo do seu primeiro m\u00f3dulo",
+                    "order": 1,
+                    "courses": {
+                        "103": {
+                            "title": "T\u00edtulo do seu primeiro curso",
+                            "type": 4,
+                            "situation": 1,
+                            "description": "lecture description",
+                            "order": 1,
+                            "content": {
+                                "title": "YouTube - 9SSoLOSdLEM",
+                                "video_id": "9SSoLOSdLEM",
+                                "thumbnail": null,
+                                "description": null
+                            }
+                        },
+                        "104": {
+                            "title": "quiz",
+                            "type": 3,
+                            "situation": 1,
+                            "description": "lecture description",
+                            "order": 2,
+                            "content": []
+                        }
+                    }
+                }
+            },
+            "states": {
+                "quizLayer": {
+                    "5": {
+                        "id_class": "104",
+                        "title": "\\u003Cp\\u003E1+1\\u003C\\\/p\\u003E",
+                        "type": 1,
+                        "weight": 1,
+                        "choices": {
+                            "10": {
+                                "text": "1",
+                                "correct": true
+                            },
+                            "11": {
+                                "text": "2",
+                                "correct": false
+                            },
+                            "12": {
+                                "text": "3",
+                                "correct": false
+                            }
+                        }
+                    }
+                },
+                "moduleLayer": {
+                    "44": {
+                        "id_clas_classified_section": "44"
+                    }
+                },
+                "courseLayer": {
+                    "103": {
+                        "id_clas_rel_upload_course_layer": "411",
+                        "layer_state": "6",
+                        "layer_action": "cancelButtonAltCourse"
+                    },
+                    "104": {
+                        "id_clas_rel_upload_course_layer": "415",
+                        "layer_state": "6",
+                        "layer_action": "cancelButtonAltCourse"
+                    }
+                }
+            }
+        }
+    },
+    "price": {
+        "type": "4",
+        "price": 56,
+        "recurring_plans_is_enabled": true,
+        "recurring_plans": {
+            "1": {
+                "is_checked": true,
+                "price": 50,
+                "link": "\/recurring\/plan\/admin\/123",
+                "name": "Plano prata"
+            },
+            "3": {
+                "is_checked": false,
+                "price": 75,
+                "link": "\/recurring\/plan\/admin\/456",
+                "name": "Plano Gold"
+            }
+        },
+        "coupons": {
+            "8": {
+                "type": 2,
+                "name": "DIADASMAES",
+                "amount": 100,
+                "discount": 5
+            },
+            "12": {
+                "type": 2,
+                "name": "DIADAMULHER",
+                "amount": 50,
+                "discount": 15
+            }
         }
     }
-}
 }
